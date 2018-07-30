@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		080F04B4210EEFF2008E8307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F04B3210EEFF2008E8307 /* AppDelegate.swift */; };
-		080F04B6210EEFF2008E8307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F04B5210EEFF2008E8307 /* ViewController.swift */; };
 		080F04B9210EEFF2008E8307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080F04B7210EEFF2008E8307 /* Main.storyboard */; };
 		080F04BB210EEFF3008E8307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080F04BA210EEFF3008E8307 /* Assets.xcassets */; };
 		080F04BE210EEFF3008E8307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080F04BC210EEFF3008E8307 /* LaunchScreen.storyboard */; };
+		080F04C6210EF172008E8307 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F04C5210EF172008E8307 /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		080F04B0210EEFF2008E8307 /* Appareil photo 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appareil photo 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		080F04B3210EEFF2008E8307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		080F04B5210EEFF2008E8307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		080F04B8210EEFF2008E8307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		080F04BA210EEFF3008E8307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		080F04BD210EEFF3008E8307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		080F04BF210EEFF3008E8307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080F04C5210EF172008E8307 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				080F04B3210EEFF2008E8307 /* AppDelegate.swift */,
-				080F04B5210EEFF2008E8307 /* ViewController.swift */,
 				080F04B7210EEFF2008E8307 /* Main.storyboard */,
 				080F04BA210EEFF3008E8307 /* Assets.xcassets */,
 				080F04BC210EEFF3008E8307 /* LaunchScreen.storyboard */,
 				080F04BF210EEFF3008E8307 /* Info.plist */,
+				080F04C5210EF172008E8307 /* CameraController.swift */,
 			);
 			path = "Appareil photo 2";
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				080F04B6210EEFF2008E8307 /* ViewController.swift in Sources */,
+				080F04C6210EF172008E8307 /* CameraController.swift in Sources */,
 				080F04B4210EEFF2008E8307 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codabee.Appareil-photo-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codabee.Appareil-photo-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
